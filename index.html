@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Trailer Popup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main-container">
+        <img src="https://images.pexels.com/photos/3795291/pexels-photo-3795291.jpeg" alt="movie-pexels">
+        <!-- search movie on pexels to get this 
+        image and same also for video -->
+
+        <h1>Movie Title</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit perferendis unde sunt veniam. Iusto et
+            recusandae blanditiis, commodi quaerat asperiores?</p>
+        <button class="btn">Watch Now</button>
+    </div>
+
+    <div class="trailer-container active">
+        <video src="https://player.vimeo.com/external/401018575.sd.mp4?s=7a0d0da7ebedb3aa78daeeca33a907c060f85f60&profile_id=164&oauth2_token_id=57447761" autoplay controls></video>
+
+        <i class="fa-solid fa-xmark fa-2x close-icon"></i>
+        <!-- 
+            go to font awesome and search for times to 
+            get above icon
+
+            then search for cdn js on google and go the 
+            first site i.e. https://cdnjs.com/ and 
+            search for font awesome and copy the link 
+            and paste it in the head tag of the html 
+            file
+
+            fa-2x will increase the size by 2 times
+
+         -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
